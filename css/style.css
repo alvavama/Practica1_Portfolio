@@ -1,3 +1,20 @@
 body {
   background-color: aqua;
 }
+
+h1 {
+  font-family: obviously-variable, sans-serif;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Projekt Blackbird", sans-serif;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Projekt Blackbird";
+  src: url("fonts/PROJEKT BLACKBIRD.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
