@@ -1,15 +1,21 @@
-body {
-  background-color: aqua;
-}
-
-h1 {
+header {
   font-family: obviously-variable, sans-serif;
-  font-style: normal;
+  font-style: bold;
+  color: white;
+  background-color: black;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-h2 {
-  font-family: "Projekt Blackbird", sans-serif;
-  font-style: normal;
+.header > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
 }
 
 @font-face {
