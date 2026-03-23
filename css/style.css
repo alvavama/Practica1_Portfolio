@@ -3,8 +3,9 @@ header {
   font-style: bold;
   color: white;
   background-color: black;
+  margin: 10px 20px 0 20px;
   padding: 10px 20px 10px 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -18,6 +19,16 @@ header {
   gap: 20px;
 }
 
+.cabecera > div {
+  font-family: obviously-variable, sans-serif;
+  font-style: bold;
+  color: #f5e64f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
+  margin: 0 20px 0 20px;
+}
 @font-face {
   font-family: "Projekt Blackbird";
   src: url("fonts/PROJEKT BLACKBIRD.otf") format("opentype");
