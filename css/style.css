@@ -13,9 +13,10 @@ body {
 
 header {
   font-family: obviously-variable, sans-serif;
-  font-style: bold;
-  color: white;
-  background-color: black;
+  font-weight: bolder;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  background-color: #f5e64f;
   padding: 20px 30px 20px 30px;
   border-radius: 10px;
   align-items: center;
@@ -37,7 +38,7 @@ header {
   gap: 20px;
 }
 .header > div > a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -47,7 +48,8 @@ header {
 }
 .cabecera > div {
   font-family: obviously-variable, sans-serif;
-  font-style: normal;
+  font-weight: bolder;
+  font-size: 24px;
   color: #f5e64f;
   display: flex;
   flex-direction: row;
@@ -55,7 +57,7 @@ header {
   padding: 0 50px 0 50px;
   position: fixed;
   width: 100%;
-  top: 70px;
+  top: 90px;
 }
 
 .cabecera > div > p {
