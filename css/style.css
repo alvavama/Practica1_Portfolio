@@ -18,7 +18,7 @@ header {
   color: rgb(0, 0, 0);
   background-color: #f5e64f;
   padding: 20px 30px 20px 30px;
-  border-radius: 10px;
+  border-radius: 0px;
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -29,6 +29,11 @@ header {
   top: 20px;
   left: 0;
   z-index: 9999;
+  transition: 0.3s;
+}
+
+header:hover {
+  border-radius: 20px;
 }
 
 .header > div {
@@ -40,8 +45,13 @@ header {
 .header > div > a {
   color: rgb(0, 0, 0);
   text-decoration: none;
+  transition: 0.3s;
+  font-weight: normal;
 }
 
+.header > div > a:hover {
+  font-weight: bold;
+}
 .cabecera {
   margin: 0;
   padding: 0;
