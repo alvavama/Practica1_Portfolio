@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #779dcc;
+}
+
 header {
   font-family: obviously-variable, sans-serif;
   font-style: bold;
@@ -18,10 +24,18 @@ header {
   align-items: center;
   gap: 20px;
 }
+.header > div > a {
+  color: white;
+  text-decoration: none;
+}
 
+.cabecera {
+  margin: 0;
+  padding: 0;
+}
 .cabecera > div {
   font-family: obviously-variable, sans-serif;
-  font-style: bold;
+  font-style: normal;
   color: #f5e64f;
   display: flex;
   flex-direction: row;
@@ -29,9 +43,27 @@ header {
   padding: 0 15px 0 15px;
   margin: 0 20px 0 20px;
 }
+
+.cabecera > div > p {
+  margin: 20px 0 0 0;
+}
+
+.cabecera > video {
+  width: 100%;
+  height: auto;
+}
 @font-face {
   font-family: "Projekt Blackbird";
   src: url("fonts/PROJEKT BLACKBIRD.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
+}
+
+.gallery {
+  background-color: black;
+}
+
+.gallery > div {
+  width: 100%;
+  height: 700px;
 }
