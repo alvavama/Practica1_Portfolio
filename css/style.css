@@ -95,12 +95,12 @@ header:hover {
 
 .icon {
   width: 30px;
-  height: 27px;
+  height: 30px;
   margin: 3px;
-  border: 2px;
   font-size: 24px;
   border-color: #f5e64f;
   align-items: center;
+  justify-content: center;
 }
 
 .icon > a {
@@ -146,6 +146,7 @@ header:hover {
   border-color: #ffffff;
   border: 2px solid;
   padding: 10px;
+  display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.3s;
@@ -159,8 +160,7 @@ header:hover {
 }
 
 .categories > div > p {
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 @font-face {
   font-family: "Projekt Blackbird";
