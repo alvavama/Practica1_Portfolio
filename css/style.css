@@ -113,24 +113,33 @@ header:hover {
   color: #ffffff;
 }
 
+.project-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 0 55px 0 55px;
+  gap: 55px;
+}
+
 .text {
   color: white;
   font-family: obviously-variable, sans-serif;
   font-weight: bolder;
-  margin: 0 55px 20px 55px;
+  margin: 0 0px 20px 0px;
 }
-
+.text > p:first-child {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
 .text > p:last-child {
   color: white;
   font-family: obviously-variable, sans-serif;
   font-weight: normal;
-  margin-top: 15px;
 }
 
-.text > p:first-child {
-  font-size: 24px;
+.text > ul {
+  font-weight: normal;
 }
-
 .categories {
   color: white;
   font-family: obviously-variable, sans-serif;
@@ -172,4 +181,52 @@ header:hover {
 .gallery > div {
   width: 100%;
   height: 800px;
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+
+  .project-description {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 25px;
+  }
+  .categories > div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .text > p:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+  .categories {
+    padding: 0 25px 0 25px;
+  }
+  .header {
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+  }
+  .cabecera > div {
+    font-size: 14px;
+    top: 70px;
+    padding: 0 30px 0 30px;
+  }
+
+  .cabecera > div > p {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 407px) {
+  .header > div {
+    gap: 10px;
+  }
 }
