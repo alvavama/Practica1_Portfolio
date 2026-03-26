@@ -183,11 +183,47 @@ header:hover {
   height: 800px;
 }
 
-@media screen and (max-width: 720px) {
-  body {
-    background-color: rgb(0, 0, 0);
-  }
+footer {
+  color: rgb(178, 178, 178);
+  font-family: obviously-variable, sans-serif;
+  font-weight: normal;
+}
+footer > p {
+  margin: 20px 0 20px 0;
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0 20px 0;
+  padding: 0 55px 0 55px;
+}
+iframe {
+  width: 100%;
+  padding: 0 55px 0 55px;
+}
+.rrss {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 55px 0 55px;
+}
 
+.rrss > li > a {
+  text-decoration: none;
+  color: rgb(178, 178, 178);
+  font-size: 20px;
+}
+
+.rrss > li > a:hover {
+  color: #f5e64f;
+}
+
+@media screen and (max-width: 720px) {
   .project-description {
     display: flex;
     flex-direction: column;
@@ -222,6 +258,14 @@ header:hover {
 
   .cabecera > div > p {
     margin: 0;
+  }
+  .info {
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+  .info > p {
+    text-align: center;
   }
 }
 
