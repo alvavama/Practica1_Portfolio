@@ -83,35 +83,90 @@ header:hover {
 .project-header {
   font-family: obviously-variable, sans-serif;
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 48px;
   color: #f5e64f;
   display: flex;
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  gap: 30px;
-  padding: 20px 30px 20px 30px;
+  gap: 15px;
+  padding: 20px 30px 20px 10px;
 }
 
 .icon {
   width: 30px;
-  height: 30px;
+  height: 27px;
   margin: 3px;
+  border: 2px;
+  font-size: 24px;
+  border-color: #f5e64f;
+  align-items: center;
 }
 
 .icon > a {
   color: #f5e64f;
   text-decoration: none;
+  transition: 0.3s;
+}
+
+.icon > a:hover {
+  color: #ffffff;
+}
+
+.text {
+  color: white;
+  font-family: obviously-variable, sans-serif;
+  font-weight: bolder;
+  margin: 0 55px 20px 55px;
+}
+
+.text > p:last-child {
+  color: white;
+  font-family: obviously-variable, sans-serif;
+  font-weight: normal;
+  margin-top: 15px;
+}
+
+.text > p:first-child {
+  font-size: 24px;
+}
+
+.categories {
+  color: white;
+  font-family: obviously-variable, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0 55px 0 55px;
+}
+
+.categories > div {
+  border-color: #ffffff;
+  border: 2px solid;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.categories > div:hover {
+  color: #f5e64f;
+  border-radius: 15%;
+  border-color: #f5e64f;
+  font-weight: bolder;
+}
+
+.categories > div > p {
+  justify-content: center;
+  align-items: center;
 }
 @font-face {
   font-family: "Projekt Blackbird";
   src: url("fonts/PROJEKT BLACKBIRD.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
-}
-
-.gallery {
-  background-color: black;
 }
 
 .gallery > div {
