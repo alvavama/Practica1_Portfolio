@@ -213,6 +213,14 @@ iframe {
   padding: 0 55px 0 55px;
 }
 
+.gallery {
+  padding: 0 55px 0 55px;
+  margin-top: 20px;
+}
+.gallery > img {
+  width: 100%;
+}
+
 .rrss > li > a {
   text-decoration: none;
   color: rgb(178, 178, 178);
