@@ -223,12 +223,17 @@ iframe {
 }
 .gallery > img {
   width: 100%;
+  transition: 0.3s;
 }
 .gallery img:nth-child(1),
-.gallery img:nth-child(2) {
+.gallery img:nth-child(2),
+.gallery img:nth-child(5) {
   grid-column: span 2;
 }
 
+.gallery > img:hover {
+  border-radius: 20px;
+}
 .rrss > li > a {
   text-decoration: none;
   color: rgb(178, 178, 178);
