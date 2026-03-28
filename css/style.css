@@ -260,7 +260,7 @@ iframe {
     background-color: rgb(0, 0, 0);
   }
   .categories {
-    padding: 0 25px 0 25px;
+    flex-direction: column;
   }
   .header {
     font-size: 14px;
@@ -283,10 +283,21 @@ iframe {
   .info > p {
     text-align: center;
   }
+  .gallery img:nth-child(3),
+  .gallery img:nth-child(4) {
+    grid-column: span 2;
+  }
 }
 
 @media screen and (max-width: 407px) {
   .header > div {
     gap: 10px;
+  }
+  .gallery {
+    padding: 0 30px 0 30px;
+  }
+
+  .project-header > p {
+    font-size: 30px;
   }
 }
