@@ -1,5 +1,5 @@
 # Practica1_Portfolio
 
-ARREGLAR PESO DE LA TIPO OBVIOSULY - hecho
-PEGAR SECCIÓN .gallery A VIDEO -hecho
-ARREGLAR PROBLEMA DE LA RAYA- hecho
+Terminar welcome to my poortfolio
+Hacer página con menu de navegación interno (ABOUT)
+Empezar memoria
