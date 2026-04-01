@@ -249,13 +249,14 @@ iframe {
   flex-direction: row;
   justify-content: space-between;
   padding: 0 50px 0 50px;
-  margin: 20px 0;
+  margin: 40px 0;
 }
 
 #galería > .información > p {
-  color: white;
+  color: #f5e64f;
   font-family: obviously-variable, sans-serif;
-  font-weight: normal;
+  font-weight: bolder;
+  font-size: 48px;
 }
 
 #galería > div:last-child {
@@ -282,6 +283,17 @@ iframe {
   grid-column: span 2;
 }
 
+#galería > p {
+  color: white;
+  font-family: obviously-variable, sans-serif;
+  font-weight: normal;
+  padding: 0 50px 0 50px;
+  margin-bottom: 50px;
+}
+#galería > p > span {
+  color: #f5e64f;
+  font-weight: bolder;
+}
 @media screen and (max-width: 720px) {
   .project-description {
     display: flex;
@@ -300,6 +312,9 @@ iframe {
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+  iframe {
+    display: none;
   }
 }
 
@@ -331,6 +346,13 @@ iframe {
   .gallery img:nth-child(3),
   .gallery img:nth-child(4) {
     grid-column: span 2;
+  }
+  #galería > .información > p {
+    font-size: 24px;
+  }
+
+  #galería > .información {
+    margin: 20px 0;
   }
 }
 
