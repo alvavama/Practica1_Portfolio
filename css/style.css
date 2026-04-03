@@ -151,6 +151,16 @@ header:hover {
   padding: 0 55px 0 55px;
 }
 
+.categories2 {
+  color: white;
+  font-family: obviously-variable, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0 55px 0 55px;
+}
 .categories > div {
   border-color: #ffffff;
   border: 2px solid;
@@ -161,13 +171,35 @@ header:hover {
   transition: 0.3s;
 }
 
+.categories2 > div {
+  border-color: #ffffff;
+  border: 2px solid;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
 .categories > div:hover {
   color: #f5e64f;
   border-radius: 20px;
   border-color: #f5e64f;
   font-weight: bolder;
 }
+.categories2 > div > a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
 
+.categories2 > div:hover {
+  border-radius: 20px;
+  border-color: #f5e64f;
+  font-weight: bolder;
+}
+.categories2 > div:hover > a {
+  color: #f5e64f;
+}
 .categories > div > p {
   text-align: center;
 }
@@ -176,11 +208,6 @@ header:hover {
   src: url("fonts/PROJEKT BLACKBIRD.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
-}
-
-.gallery > div {
-  width: 100%;
-  height: 800px;
 }
 
 footer {
