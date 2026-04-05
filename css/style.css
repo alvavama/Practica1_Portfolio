@@ -160,6 +160,7 @@ header:hover {
   flex-direction: row;
   gap: 20px;
   padding: 0 55px 0 55px;
+  margin-bottom: 50px;
 }
 .categories > div {
   border-color: #ffffff;
@@ -320,6 +321,43 @@ iframe {
 #galería > p > span {
   color: #f5e64f;
   font-weight: bolder;
+}
+
+#Quiensoy > p,
+#experiencia > p,
+#habilidades > p,
+#hobbies > p,
+#cv > p {
+  color: #f5e64f;
+  font-family: obviously-variable, sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#Quiensoy,
+#experiencia,
+#habilidades,
+#hobbies,
+#cv {
+  padding: 0 55px 0 55px;
+}
+
+#Quiensoy > div {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+#Quiensoy > div > p {
+  color: white;
+  font-family: obviously-variable, sans-serif;
+  font-weight: normal;
+}
+
+#Quiensoy > div > img {
+  width: 300px;
+  height: auto;
 }
 @media screen and (max-width: 720px) {
   .project-description {
