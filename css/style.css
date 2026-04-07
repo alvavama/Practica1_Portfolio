@@ -355,10 +355,6 @@ iframe {
   font-weight: normal;
 }
 
-#Quiensoy > div > img {
-  width: 300px;
-  height: auto;
-}
 @media screen and (max-width: 720px) {
   .project-description {
     display: flex;
@@ -381,6 +377,11 @@ iframe {
   iframe {
     display: none;
   }
+}
+.categories2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 @media screen and (max-width: 605px) {
