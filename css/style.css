@@ -355,6 +355,16 @@ iframe {
   font-weight: normal;
 }
 
+#habilidades > div {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+#habilidades > div > img {
+  width: 100;
+}
 @media screen and (max-width: 720px) {
   .project-description {
     display: flex;
