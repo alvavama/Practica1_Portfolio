@@ -262,6 +262,29 @@ iframe {
 .gallery > img:hover {
   border-radius: 20px;
 }
+
+.gallery2 {
+  padding: 0 55px 0 55px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.gallery2 > img {
+  width: 100%;
+  transition: 0.3s;
+}
+.gallery2 img:nth-child(1),
+.gallery2 img:nth-child(2),
+.gallery2 img:nth-child(5),
+.gallery2 img:nth-child(8),
+.gallery2 img:nth-child(9) {
+  grid-column: span 2;
+}
+
+.gallery > img:hover {
+  border-radius: 20px;
+}
 .rrss > li > a {
   text-decoration: none;
   color: rgb(178, 178, 178);
