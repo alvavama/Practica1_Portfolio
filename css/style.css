@@ -131,7 +131,7 @@ header:hover {
 #galería > .información > p {
   color: var(--accent);
   font-family: obviously-variable, sans-serif;
-  font-weight: 900;
+  font-weight: bolder;
   font-size: clamp(22px, 5vw, 48px);
 }
 
@@ -147,7 +147,7 @@ header:hover {
 
 #galería > p > span {
   color: var(--accent);
-  font-weight: 900;
+  font-weight: bolder;
 }
 
 /* Grid galería */
@@ -164,7 +164,9 @@ header:hover {
   width: 100%;
   height: auto;
   display: block;
-  transition: border-radius 0.3s, border 0.3s;
+  transition:
+    border-radius 0.3s,
+    border 0.3s;
 }
 
 #galería > div:last-child > a > img:hover,
@@ -182,7 +184,7 @@ header:hover {
    ============================================ */
 .project-header {
   font-family: obviously-variable, sans-serif;
-  font-weight: 900;
+  font-weight: bolder;
   font-size: clamp(22px, 4vw, 48px);
   color: var(--accent);
   display: flex;
@@ -190,7 +192,7 @@ header:hover {
   justify-content: flex-start;
   align-items: center;
   gap: clamp(10px, 2vw, 15px);
-  padding: clamp(80px, 12vw, 120px) var(--pad-inline) clamp(15px, 3vw, 20px);
+  padding: 20px var(--pad-inline) clamp(15px, 3vw, 20px);
   flex-wrap: wrap;
 }
 
@@ -229,7 +231,7 @@ header:hover {
 .text {
   color: var(--text-primary);
   font-family: obviously-variable, sans-serif;
-  font-weight: 900;
+  font-weight: bolder;
   margin: 0 0 20px 0;
   flex: 1 1 200px;
   min-width: 0;
@@ -278,7 +280,11 @@ header:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: border-color 0.3s, border-radius 0.3s, color 0.3s, font-weight 0.3s;
+  transition:
+    border-color 0.3s,
+    border-radius 0.3s,
+    color 0.3s,
+    font-weight 0.3s;
   cursor: default;
 }
 
@@ -286,7 +292,7 @@ header:hover {
   color: var(--accent);
   border-radius: 20px;
   border-color: var(--accent);
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .categories2 > div > a {
@@ -298,7 +304,7 @@ header:hover {
 .categories2 > div:hover {
   border-radius: 20px;
   border-color: var(--accent);
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .categories2 > div:hover > a {
@@ -369,7 +375,7 @@ header:hover {
 #cv > p {
   color: var(--accent);
   font-family: obviously-variable, sans-serif;
-  font-weight: 900;
+  font-weight: bolder;
   font-size: clamp(18px, 2.5vw, 24px);
   margin-bottom: clamp(15px, 3vw, 30px);
 }
@@ -579,7 +585,7 @@ iframe {
   }
 
   .project-header {
-    padding-top: clamp(70px, 15vw, 100px);
+    padding-top: 20px;
   }
 }
 
@@ -623,7 +629,5 @@ iframe {
 
   footer > p:last-child {
     padding-bottom: max(0px, env(safe-area-inset-bottom));
-  }
-}
   }
 }
